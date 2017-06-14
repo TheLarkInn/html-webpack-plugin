@@ -12,6 +12,7 @@
     "prepublish": "npm run test",
     "pretest": "semistandard",
     "build-examples": "node examples/build-examples.js",
+    "build-examples:debug": "node --inspect --debug-brk examples/build-examples.js",
     "test": "jasmine"
   },
   "repository": {
@@ -46,6 +47,7 @@
     "jade": "^1.11.0",
     "jade-loader": "^0.8.0",
     "jasmine": "^2.5.2",
+    "multipage-webpack-plugin": "^0.2.1",
     "rimraf": "^2.5.4",
     "semistandard": "8.0.0",
     "style-loader": "^0.13.1",
